@@ -64,7 +64,7 @@ export function AssigneeSelect({
             <>
               <AssigneeAvatar
                 name={selected.name!}
-                image={selected.image.image!}
+                image={selected.image}
                 className="size-5"
               />
               <span className="truncate">{selected.name}</span>
